@@ -1,4 +1,4 @@
-# Java Spring Service for Managing API Logs 📝
+# Java Spring-Boot Service for Managing API Logs 📝
 
 This README provides an overview of a Java Spring service for managing API logs. This service is designed to create a single log file for each day and schedule a cron job to upload that log file to Azure Blob Storage after 24 hours. You can configure the service using the `application.yml` file and adjust the scheduling interval in the `SchaduleTask.java` class. 🕒
 
